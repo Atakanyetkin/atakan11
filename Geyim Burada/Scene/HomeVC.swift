@@ -28,7 +28,7 @@ class HomeVC: UIViewController {
         }
         nextButton.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
     }
-    
+    //test
     @objc func nextButtonTapped(){
         Presentation.presentVC(currentVC: self, destinationVC: HomeVC(), toDirection: .right)
     }
