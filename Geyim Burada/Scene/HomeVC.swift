@@ -35,6 +35,4 @@ class HomeVC: UIViewController {
     
 }
 
-//test2
 
-//test3
