@@ -13,7 +13,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         Constant.shared.getValuesFromPlist()
-        configureWindow(destinationVC: OnboardingVC())
+        configureWindow(destinationVC: HomeVC())
         return true
     }
 
